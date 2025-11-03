@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="logo">Δ Delta Shop</div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" id="panier-btn">🛒 Panier <span id="panier-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bannière -->
+    <section id="accueil" class="hero">
+        <h1>Bienvenue chez Delta Shop</h1>
+        <p>Votre boutique en ligne moderne et élégante.</p>
+        <a href="#produits" class="btn">Voir nos produits</a>
+    </section>
+
+    <!-- Section Produits -->
+    <section id="produits" class="products">
+        <h2>Nos Produits</h2>
+        <div class="product-list">
+            <div class="product-card" data-id="1">
+                <img src="images/produit1.jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p class="price">25€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="product-card" data-id="2">
+                <img src="images/produit2.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p class="price">40€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="product-card" data-id="3">
+                <img src="images/produit3.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p class="price">30€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Delta Shop. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
